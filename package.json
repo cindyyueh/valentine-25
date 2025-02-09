@@ -1,11 +1,11 @@
 {
   "name": "valentine-25",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://cindyyueh.github.io/valentine-25",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d out",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
