@@ -13,6 +13,7 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="/dancing-cat.webp"
+          unoptimized
           alt="cat dancing"
           width={400}
           height={400}

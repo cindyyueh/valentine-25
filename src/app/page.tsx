@@ -11,6 +11,7 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="/cat-flowers.jpg"
+          unoptimized
           alt="cat holding flowers"
           width={400}
           height={100}
