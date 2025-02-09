@@ -33,13 +33,11 @@ export default function NoButton() {
     const isMobile = useIsMobile();
 
     const handleTap = function () {
-        console.log('change text!!!');
         setTapText('Yes!');
     }
 
     const handleClick = function () {
         setClickCount(clickCount + 1);
-        console.log(clickCount);
 
         if (clickCount > 0) {
             MyRouter.push('/yes') 
