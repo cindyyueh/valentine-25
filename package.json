@@ -1,7 +1,7 @@
 {
   "name": "valentine-25",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/valentine-25",
+  "homepage": "https://cindyyueh.github.io/valentine-25",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
