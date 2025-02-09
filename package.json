@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "deploy": "npm run build && npm run export && touch ./out/.nojekyll && gh-pages -d out -t true",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
@@ -14,7 +14,8 @@
   "dependencies": {
     "next": "15.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "touch-cli": "^0.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
